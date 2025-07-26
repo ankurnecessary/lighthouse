@@ -1,0 +1,16 @@
+{
+  "name": "lighthouse",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lighthouse": "lhci autorun"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.13.1",
+  "devDependencies": {
+    "@lhci/cli": "0.13.0"
+  }
+}
