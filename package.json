@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "lighthouse": "lhci autorun"
+    "lighthouse": "lhci autorun",
+    "start": "lite-server"
   },
   "keywords": [],
   "author": "",
@@ -12,5 +13,8 @@
   "packageManager": "pnpm@10.13.1",
   "devDependencies": {
     "@lhci/cli": "0.13.0"
+  },
+  "dependencies": {
+    "lite-server": "^2.6.1"
   }
 }
